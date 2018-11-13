@@ -7,7 +7,7 @@
 body {
 	margin: 0px;
 	background: rgb(80, 155, 141);
-	text-align: justify;
+	text-align: right;
 	font-family: Arial, Helvetica;
 	font-size: 13px;
 	color: rgb(0, 0, 0);
@@ -236,7 +236,7 @@ a:hover {
 /* Content */
 
 #content {
-	float: justify;
+	float: left;
 	width: 640px;
 }
 .post {
