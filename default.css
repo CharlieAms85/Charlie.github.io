@@ -6,11 +6,11 @@
 
 body {
 	margin: 0px;
-	background: rgb(80, 155, 141);
-	text-align: right;
-	font-family: Arial, Helvetica;
+	background: #FFFFFF url(images/img01.jpg) repeat-x left top;
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 13px;
-	color: rgb(0, 0, 0);
+	color: #231F20;
 }
 
 h1, h2, h3 {
@@ -136,7 +136,7 @@ a:hover {
 }
 
 #menu a:hover, #menu .active a {
-	background: #669152;
+	background: #000000;
 	color: #FFFFFF;
 }
 
@@ -171,7 +171,7 @@ a:hover {
 #header-search-text {
 	width: 200px;
 	padding: 2px 3px;
-	background: rgb(95, 223, 180);
+	background: #1E1E1E;
 	border: none;
 	color: #4D4D4D;
 }
@@ -236,23 +236,23 @@ a:hover {
 /* Content */
 
 #content {
-	float: left;
+	float: right;
 	width: 640px;
 }
 .post {
 	margin: 0px 0px 30px 0px;
-	border-bottom: 1px solid #ffffff;
+	border-bottom: 1px solid #CCCCCC;
 }
 
 .post .title {
 	margin: 0px;
 	padding: 0px 0px 5px 0px;
-	color: #f0ecef;
+	color: #515151;
 }
 
 .post .title a {
 	padding: 4px 35px 4px 15px;
-	background: #7066cf;
+	background: #000000;
 	text-decoration: none;
 	font-weight: normal;
 	color: #FFFFFF;
@@ -284,15 +284,16 @@ a:hover {
 
 /* Sidebar */
 
-#sidebar {
-	float: left;
+#sidebar 
+{
+	float: right;
 	width: 240px;
 	margin: 0px;
 	padding: 0px 30px 30px 0px;
 }
 
 #sidebar ul {
-	margin: 0px;
+	margin: 0;
 	padding: 0;
 	list-style: none;
 	line-height: normal;
@@ -308,7 +309,7 @@ a:hover {
 }
 
 #sidebar li li {
-	margin: 0px;
+	margin: 0;
 	padding: 9px 0px;
 	border: none;
 	border-bottom: 1px solid #CCCCCC;
@@ -324,7 +325,7 @@ a:hover {
 
 #sidebar h3 {
 	font-size: 77%;
-	color: #010001;
+	color: #110404;
 }
 
 #sidebar p {
@@ -362,7 +363,7 @@ a:hover {
 #footer {
 	margin: 0 auto;
 	padding: 20px 0px;
-	background: #4e1616;
+	background: #000000;
 	color: #686767;
 }
 
