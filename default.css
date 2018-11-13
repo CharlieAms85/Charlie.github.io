@@ -236,7 +236,7 @@ a:hover {
 /* Content */
 
 #content {
-	float: right;
+	float: left;
 	width: 640px;
 }
 .post {
@@ -268,14 +268,14 @@ a:hover {
 }
 
 .post .meta {
-	text-align: right;
+	text-align: left;
 	padding: 0px 0 20px 0;
 	font-weight: bold;
 	color: #202020;
 }
 
 .post .byline {
-	float: right;
+	float: left;
 	margin-top: -30px;
 	font-size: 12px;
 	font-weight: bold;
