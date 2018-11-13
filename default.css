@@ -6,7 +6,7 @@
 
 body {
 	margin: 0px;
-	background: rgb(205, 244, 119) url(images/img01.jpg) repeat-x left top;
+	background: rgb(205, 244, 119);
 	text-align: justify;
 	font-family: Arial, Helvetica;
 	font-size: 13px;
